@@ -1,7 +1,7 @@
 {
     "name": "七牛云原生WebRTC插件",
     "id": "QNRTC-UniPlugin",
-    "version": "5.2.8",
+    "version": "5.2.9",
     "description": "QNRTC原生插件",
     "_dp_type": "nativeplugin",
     "_dp_nativeplugin": {
@@ -45,11 +45,9 @@
             ],
             "integrateType": "framework",
             "frameworks": [
-                "HappyDNS.framework",
                 "QNRTCKit.framework"
             ],
             "embedFrameworks": [
-                "HappyDNS.framework",
                 "QNRTCKit.framework"
             ],
             "privacies": [
