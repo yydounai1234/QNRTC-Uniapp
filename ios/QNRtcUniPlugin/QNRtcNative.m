@@ -800,6 +800,7 @@ typedef enum : NSUInteger {
         QNMicrophoneAudioTrack *microphoneAudioTrack = (QNMicrophoneAudioTrack *)targetTrack;
         return [NSNumber numberWithFloat: [microphoneAudioTrack getVolumeLevel]];
     }
+    return 0;
 }
 
 - (void)addAudioFilter:(NSString *)identifyID filter:(NSString *)filter {

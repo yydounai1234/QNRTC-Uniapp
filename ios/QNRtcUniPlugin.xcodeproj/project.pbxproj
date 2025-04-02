@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,10 +21,6 @@
 		64906FEB2AF8EC3100E424A3 /* QNRtcUniAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64906FE72AF8EC3000E424A3 /* QNRtcUniAdapter.m */; };
 		64906FEC2AF8EC3100E424A3 /* QNRtcTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 64906FE82AF8EC3000E424A3 /* QNRtcTools.h */; };
 		64906FED2AF8EC3100E424A3 /* QNRtcTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 64906FE92AF8EC3100E424A3 /* QNRtcTools.m */; };
-		649070172AF9FE0A00E424A3 /* QNRTCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649070152AF9FCCE00E424A3 /* QNRTCKit.framework */; platformFilter = ios; };
-		649070182AF9FE0A00E424A3 /* QNRTCKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 649070152AF9FCCE00E424A3 /* QNRTCKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6490703D2AFA0A5C00E424A3 /* HappyDNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649070392AFA0A3F00E424A3 /* HappyDNS.framework */; platformFilter = ios; };
-		6490703E2AFA0A5C00E424A3 /* HappyDNS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 649070392AFA0A3F00E424A3 /* HappyDNS.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		64C27A3E2AFA10EA003076B9 /* QNRtcLocalTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C27A3C2AFA10EA003076B9 /* QNRtcLocalTrack.h */; };
 		64C27A3F2AFA10EA003076B9 /* QNRtcLocalTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C27A3D2AFA10EA003076B9 /* QNRtcLocalTrack.m */; };
 		64C27A452AFA1552003076B9 /* QNCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C27A402AFA1552003076B9 /* QNCustomView.m */; };
@@ -45,8 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				649070182AF9FE0A00E424A3 /* QNRTCKit.framework in Embed Frameworks */,
-				6490703E2AFA0A5C00E424A3 /* HappyDNS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,8 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				649070172AF9FE0A00E424A3 /* QNRTCKit.framework in Frameworks */,
-				6490703D2AFA0A5C00E424A3 /* HappyDNS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +399,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../SDK/inc\"/**";
+				HEADER_SEARCH_PATHS = "/Users/tongjie/Desktop/ios/SDK/SDK/inc/**";
 				INFOPLIST_FILE = QNRtcUniPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -440,7 +432,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../SDK/inc\"/**";
+				HEADER_SEARCH_PATHS = "/Users/tongjie/Desktop/ios/SDK/SDK/inc/**";
 				INFOPLIST_FILE = QNRtcUniPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
